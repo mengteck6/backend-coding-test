@@ -1,9 +1,15 @@
-Template for the Read the Docs tutorial
-=======================================
+Riders' Management APIs
+=======================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This project contains endpoints you can use to integrate Rider's Management APIs in your application
 
-Read the tutorial here:
+Setup
+=====
+1. Ensure `node (>8.6 and <= 10)` and `npm` are installed
+2. Run `npm install`
+3. Run `npm test`
+4. Run `npm start`
 
-https://docs.readthedocs.io/en/stable/tutorial/
+Health Check
+============
+Hit the server to test health `curl localhost:8010/health` and expect a `200` response
