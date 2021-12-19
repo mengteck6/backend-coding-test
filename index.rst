@@ -35,7 +35,7 @@ List Trips
 
 List Single Trip
 ================
-`curl --location --request GET 'localhost:8010/rides/?id=1'`
+`curl --location --request GET 'localhost:8010/rides/2'`
 
 Swagger Specifications
 ======================
